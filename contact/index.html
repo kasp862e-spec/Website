@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt | Djurs-IT-Partner</title>
+    <meta name="description" content="Kontakt Djurs-IT-Partner. Adresse, åbningstider, telefon, e-mail, CVR og kontaktformular." />
+    <link rel="canonical" href="https://djursitpartner.dk/contact/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.png" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/assets/icons/favicon.png" />
+    <meta property="og:title" content="Kontakt Djurs-IT-Partner" />
+    <meta property="og:description" content="Adresse, åbningstider og kontaktformular til Djurs-IT-Partner." />
+    <meta property="og:url" content="https://djursitpartner.dk/contact/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://djursitpartner.dk/assets/images/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kontakt Djurs-IT-Partner" />
+    <meta name="twitter:description" content="Adresse, åbningstider og kontaktformular til Djurs-IT-Partner." />
+    <meta name="twitter:image" content="https://djursitpartner.dk/assets/images/logo.png" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Spring til indhold</a>
+    <div data-include="/partials/header.html"></div>
+    <main id="main" class="section">
+      <header class="section-header">
+        <h1>Kontakt os</h1>
+        <p>Ring eller skriv – så tager vi en kort behovsafklaring og finder en tid, der passer. Vi dækker hele Djursland og kører gerne ud.</p>
+      </header>
+      <div class="max-w">
+        <div class="grid grid-cols-2">
+          <section class="card" aria-labelledby="contact-info">
+            <h2 id="contact-info">Kontaktinformation</h2>
+            <address class="address-block">
+              Nørregade 12<br />
+              8500 Grenaa<br />
+              Danmark
+            </address>
+            <p><strong>Telefon:</strong> <a href="tel:+4581952328">+45 81 95 23 28</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:kasper@djursitpartner.dk">kasper@djursitpartner.dk</a></p>
+            <p><strong>CVR:</strong> 45971570</p>
+            <p><strong>Åbningstider:</strong><br />Mandag-fredag: 08:00-17:00<br />Weekend efter aftale</p>
+            <p><a href="mailto:kasper@djursitpartner.dk" class="button">Send mail</a></p>
+          </section>
+          <section class="card" aria-labelledby="contact-form">
+            <h2 id="contact-form">Send en besked</h2>
+            <form class="form" action="https://formspree.io/f/mayvdjqr" method="POST" data-validate>
+              <input type="hidden" name="form-name" value="contact" />
+              <label for="contact-name">Navn</label>
+              <input type="text" id="contact-name" name="name" required autocomplete="name" />
+
+              <label for="contact-email">E-mail</label>
+              <input type="email" id="contact-email" name="email" required autocomplete="email" />
+
+              <label for="contact-phone">Telefon</label>
+              <input type="tel" id="contact-phone" name="phone" autocomplete="tel" />
+
+              <label for="message">Besked</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <div class="honeypot" aria-hidden="true">
+                <label for="contact-company">Firma</label>
+                <input type="text" id="contact-company" name="company" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <button type="submit" class="button">Send besked</button>
+              <p class="small">Du kan også ringe direkte på <a href="tel:+4581952328">+45 81 95 23 28</a>.</p>
+            </form>
+          </section>
+        </div>
+      </div>
+      <section class="section map-embed" aria-label="Kort">
+        <iframe title="Djurs-IT-Partner på kort" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.562947709444!2d10.879999!3d56.412999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTbCsDI0JzQ2LjgiTiAxMMKwNTInNDUuOSJF!5e0!3m2!1sda!2sdk!4v1700000000000"></iframe>
+      </section>
+    </main>
+    <div data-include="/partials/footer.html"></div>
+    <script type="module" src="/assets/js/main.js" defer></script>
+  </body>
+</html>

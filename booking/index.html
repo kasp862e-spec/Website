@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Booking | Djurs-IT-Partner</title>
+    <meta name="description" content="Book IT-support hos Djurs-IT-Partner. Send din forespørgsel og vælg et tidspunkt, der passer." />
+    <link rel="canonical" href="https://djursitpartner.dk/booking/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.png" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/assets/icons/favicon.png" />
+    <meta property="og:title" content="Booking hos Djurs-IT-Partner" />
+    <meta property="og:description" content="Book IT-support hos Djurs-IT-Partner." />
+    <meta property="og:url" content="https://djursitpartner.dk/booking/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://djursitpartner.dk/assets/images/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Booking hos Djurs-IT-Partner" />
+    <meta name="twitter:description" content="Book IT-support hos Djurs-IT-Partner." />
+    <meta name="twitter:image" content="https://djursitpartner.dk/assets/images/logo.png" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Spring til indhold</a>
+    <div data-include="/partials/header.html"></div>
+    <main id="main" class="section">
+      <header class="section-header">
+        <h1>Book support</h1>
+        <p>Send os dine oplysninger, så vender vi hurtigt tilbage med en bekræftelse og et forslag til tidspunkt.</p>
+      </header>
+      <div class="max-w">
+        <form class="form card" action="https://formspree.io/f/mayvdjqr" method="POST" data-validate>
+          <input type="hidden" name="form-name" value="booking" />
+          <p class="alert">Vi svarer normalt inden for 2 timer på hverdage. Du kan også skrive direkte til <a href="mailto:kasper@djursitpartner.dk">kasper@djursitpartner.dk</a>.</p>
+          <label for="name">Navn</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" required autocomplete="tel" />
+
+          <label for="description">Beskrivelse</label>
+          <textarea id="description" name="description" rows="5" required></textarea>
+
+          <label for="time">Ønsket tidspunkt</label>
+          <input type="datetime-local" id="time" name="preferred_time" />
+
+          <div class="honeypot" aria-hidden="true">
+            <label for="company">Firma</label>
+            <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <button type="submit" class="button">Send booking</button>
+          <p class="small">Ved at sende formularen accepterer du vores <a href="/legal/privacy.html">privatlivspolitik</a>.</p>
+        </form>
+      </div>
+    </main>
+    <div data-include="/partials/footer.html"></div>
+    <script type="module" src="/assets/js/main.js" defer></script>
+  </body>
+</html>
