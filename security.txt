@@ -1,0 +1,5 @@
+Contact: mailto:kasper@djursitpartner.dk
+Encryption: https://djursitpartner.dk/.well-known/pgp.txt
+Acknowledgements: https://djursitpartner.dk/security-hall-of-fame.html
+Policy: https://djursitpartner.dk/legal/privacy.html
+Hiring: https://djursitpartner.dk/

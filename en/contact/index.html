@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Djurs-IT-Partner</title>
+    <meta name="description" content="Get in touch with Djurs-IT-Partner. Address, opening hours and contact form." />
+    <link rel="canonical" href="https://djursitpartner.dk/en/contact/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <div data-include="/partials/header-en.html"></div>
+    <main id="main" class="section">
+      <nav class="breadcrumbs" aria-label="Breadcrumbs">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/en/" itemprop="item"><span itemprop="name">Home</span></a>
+            <meta itemprop="position" content="1" />
+          </li>
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Contact</span>
+            <meta itemprop="position" content="2" />
+          </li>
+        </ol>
+      </nav>
+      <header class="section-header">
+        <h1>Contact us</h1>
+        <p>Call or write and we will schedule the right type of support. We cover all of Djursland and can travel to nearby cities.</p>
+      </header>
+      <div class="max-w">
+        <div class="grid grid-cols-2">
+          <section class="card" aria-labelledby="contact-info-en">
+            <h2 id="contact-info-en">Contact details</h2>
+            <address class="address-block">
+              Nørregade 12<br />
+              8500 Grenaa<br />
+              Denmark
+            </address>
+            <p><strong>Phone:</strong> <a href="tel:+4581952328">+45 81 95 23 28</a></p>
+            <p><strong>Email:</strong> <a href="mailto:kasper@djursitpartner.dk">kasper@djursitpartner.dk</a></p>
+            <p><strong>CVR:</strong> 45971570</p>
+            <p><strong>Opening hours:</strong><br />Mon–Fri: 08:00–17:00<br />Weekends on request</p>
+          </section>
+          <section class="card" aria-labelledby="contact-form-en">
+            <h2 id="contact-form-en">Send a message</h2>
+            <form class="form" action="https://formspree.io/f/mayvdjqr" method="POST" data-validate>
+              <input type="hidden" name="form-name" value="contact-en" />
+              <label for="name-en">Name</label>
+              <input type="text" id="name-en" name="name" required autocomplete="name" />
+
+              <label for="email-en">Email</label>
+              <input type="email" id="email-en" name="email" required autocomplete="email" />
+
+              <label for="phone-en">Phone</label>
+              <input type="tel" id="phone-en" name="phone" autocomplete="tel" />
+
+              <label for="message-en">Message</label>
+              <textarea id="message-en" name="message" rows="4" required></textarea>
+
+              <div class="honeypot" aria-hidden="true">
+                <label for="company-en">Company</label>
+                <input type="text" id="company-en" name="company" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <button type="submit" class="button">Send message</button>
+              <p class="small">Prefer email? Write to <a href="mailto:kasper@djursitpartner.dk">kasper@djursitpartner.dk</a>.</p>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <div data-include="/partials/footer-en.html"></div>
+    <script type="module" src="/assets/js/main.js" defer></script>
+  </body>
+</html>
