@@ -53,22 +53,55 @@
     </div>
   </header>
   <main id="main">
-    <section class="page-hero" aria-labelledby="about-title">
-      <div class="container">
-        <h1 id="about-title">Om Din gulvmand v/Nikolaj Nyhuus</h1>
-        <p class="section-intro">Vi er et dedikeret gulvfirma, der kombinerer solid erfaring med personlig service. Hos os møder du håndværkere, der tager sig tid til at forstå dit projekt og leverer en løsning der holder.</p>
+    <section class="hero hero--compact hero--page" aria-labelledby="about-title">
+      <div class="hero__content">
+        <p class="hero__eyebrow eyebrow">Om virksomheden</p>
+        <h1 class="hero__title" id="about-title">Vi bygger gulvløsninger på ordentlighed</h1>
+        <p class="hero__subtitle">Din gulvmand v/Nikolaj Nyhuus kombinerer håndværk, rådgivning og service, så du altid får en løsning der passer til hverdagen. Vi er små nok til at kende dig – og store nok til at løfte hele projektet.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="contact.html#quote">Book et møde</a>
+          <a class="button button--secondary" href="services.html">Se vores ydelser</a>
+        </div>
       </div>
     </section>
 
-    <section class="about-story" aria-labelledby="about-story-title">
-      <div class="container">
-        <h2 id="about-story-title">Vores historie</h2>
-        <p>Nikolaj Nyhuus startede virksomheden med et klart mål: at skabe smukke og holdbare gulve, der gør en forskel i hverdagen. I dag samarbejder vi med både private boligejere og erhvervskunder i hele landet. Hver opgave får den samme faglige opmærksomhed, og vi tager ansvar for detaljerne, fra første rådgivning til afsluttende gennemgang.</p>
-        <p>Vi arbejder tæt sammen med udvalgte leverandører og bruger kun materialer, der lever op til vores krav om kvalitet og miljøhensyn. Når du vælger os, får du en sparringspartner der lytter, rådgiver og finder den løsning, der passer bedst til din hverdag.</p>
+    <section class="section-card about-highlights" aria-label="Nøgletal om virksomheden">
+      <div class="container about-highlights__grid">
+        <article class="about-highlights__item">
+          <span class="about-highlights__value">15+</span>
+          <span class="about-highlights__label">Års erfaring i branchen</span>
+        </article>
+        <article class="about-highlights__item">
+          <span class="about-highlights__value">400+</span>
+          <span class="about-highlights__label">Fuldførte gulvprojekter for private og erhverv</span>
+        </article>
+        <article class="about-highlights__item">
+          <span class="about-highlights__value">98%</span>
+          <span class="about-highlights__label">Kunder anbefaler os videre til andre</span>
+        </article>
       </div>
     </section>
 
-    <section class="about-values" aria-labelledby="about-values-title">
+    <section class="section-card about-story" aria-labelledby="about-story-title">
+      <div class="container about-story__grid">
+        <div>
+          <h2 id="about-story-title">Vores historie</h2>
+          <p>Nikolaj Nyhuus startede virksomheden med et klart mål: at skabe smukke og holdbare gulve, der gør en forskel i hverdagen. I dag samarbejder vi med både private boligejere og erhvervskunder i hele landet. Hver opgave får den samme faglige opmærksomhed, og vi tager ansvar for detaljerne fra første rådgivning til afsluttende gennemgang.</p>
+          <p>Vi arbejder tæt sammen med udvalgte leverandører og bruger kun materialer, der lever op til vores krav om kvalitet og miljøhensyn. Når du vælger os, får du en sparringspartner der lytter, rådgiver og finder den løsning, der passer bedst til dit projekt.</p>
+        </div>
+        <aside class="about-story__aside" aria-label="Sådan arbejder vi">
+          <h3>Sådan arbejder vi</h3>
+          <ul>
+            <li>Gennemsigtig rådgivning fra første samtale</li>
+            <li>Detaljeret planlægning og fast tidsplan</li>
+            <li>Ordentlig udførelse og grundig oprydning</li>
+            <li>Opfølgning efter afleveret projekt</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-card about-values" aria-labelledby="about-values-title">
       <div class="container">
         <h2 id="about-values-title">Vores værdier</h2>
         <div class="about-values__grid">
@@ -81,7 +114,7 @@
             <p>Du får altid en ærlig vurdering af muligheder og priser, så du kan træffe et trygt valg.</p>
           </article>
           <article class="about-values__item">
-            <h3>Pænt arbejde</h3>
+            <h3>Ordentlighed</h3>
             <p>Vi rydder op efter os og leverer et resultat, vi med stolthed kan sætte vores navn på.</p>
           </article>
           <article class="about-values__item">
@@ -92,7 +125,7 @@
       </div>
     </section>
 
-    <section class="about-gallery" aria-labelledby="about-gallery-title">
+    <section class="section-card about-gallery" aria-labelledby="about-gallery-title">
       <div class="container">
         <h2 id="about-gallery-title">Indblik i vores arbejde</h2>
         <div class="gallery">
@@ -115,6 +148,17 @@
         </div>
       </div>
     </section>
+
+    <section class="section-card section-card--accent about-cta" aria-labelledby="about-cta-title">
+      <div class="container about-cta__content">
+        <div>
+          <p class="eyebrow">Klar til næste skridt</p>
+          <h2 id="about-cta-title">Lad os tage en snak om dit projekt</h2>
+          <p>Vi giver gerne et ærligt bud på din opgave – uanset om det handler om enkelte rum eller hele ejendomme.</p>
+        </div>
+        <a class="button button--primary" href="contact.html#quote">Skriv til os</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -126,7 +170,7 @@
       <nav aria-label="Footer links">
         <ul class="site-footer__links">
           <li><a href="index.html">Forside</a></li>
-          <li><a href="about.html">Om os</a></li>
+          <li><a href="about.html" aria-current="page">Om os</a></li>
           <li><a href="services.html">Ydelser</a></li>
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
