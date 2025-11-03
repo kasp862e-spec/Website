@@ -264,12 +264,19 @@ main {
   grid-template-columns: minmax(0, 1fr);
   padding: clamp(4.5rem, 11vw, 6.75rem) var(--container-padding);
   margin-bottom: clamp(2.5rem, 6vw, 4rem);
+  justify-items: center;
 }
 .hero--compact .hero__content {
   max-width: 720px;
+  text-align: center;
+  margin: 0 auto;
+}
+.hero--compact .hero__logo {
+  margin: 0 auto;
 }
 .hero--compact .hero__actions {
   margin-top: var(--space-sm);
+  justify-content: center;
 }
 .hero--compact .hero__image {
   display: none;
