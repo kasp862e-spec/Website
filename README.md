@@ -33,7 +33,7 @@ sitemap.xml       XML-sitemap
 ## Formularer
 - Der er to formularer på `contact.html`: tilbudsformular (`#quote`) og kontaktformular (`#contact-form`).
 - Klientvalidering sikrer, at obligatoriske felter er udfyldt og at e-mailadresser er gyldige.
-- Ved succes danner JavaScript et `mailto:`-link til `info@dingulvmand.dk`, så henvendelsen åbner i brugerens e-mailklient.
+- Ved succes danner JavaScript et `mailto:`-link til `Nikolaj@dgnn.dk`, så henvendelsen åbner i brugerens e-mailklient.
 
 ## Tilpasning
 - Primære farver og spacing findes øverst i `assets/css/styles.css` som CSS-variabler.

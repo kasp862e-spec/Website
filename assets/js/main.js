@@ -188,7 +188,7 @@
 
       const body = config.formatter(values);
       const subject = `${config.subject} - Din gulvmand`;
-      const mailto = `mailto:info@dingulvmand.dk?subject=${encodeURIComponent(subject)}&body=${body}`;
+      const mailto = `mailto:Nikolaj@dgnn.dk?subject=${encodeURIComponent(subject)}&body=${body}`;
       window.location.href = mailto;
       form.reset();
     });
