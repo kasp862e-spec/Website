@@ -135,15 +135,6 @@ main {
   text-decoration: none;
   transition: color var(--transition);
 }
-.site-header__logo::before {
-  content: "";
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #3A86FF 0%, #5ec9ff 100%);
-  box-shadow: 0 14px 30px rgba(58, 134, 255, .35);
-  flex-shrink: 0;
-}
 .site-header__logo-mark {
   font-size: 1rem;
   line-height: 1.1;
