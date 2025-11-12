@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt Din gulvmand – Få et uforpligtende gulvtilbud</title>
+  <meta name="description" content="Kontakt Din gulvmand V/Nikolaj Nyhuus for tilbud på gulvslibning, linoleum, vinyl, trægulve samt tæpper. Ring +45 28 55 42 19 eller brug formularen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;800&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Spring til indhold</a>
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">Din gulvmand</a>
+      <nav aria-label="Hovednavigation">
+        <ul data-nav-list></ul>
+      </nav>
+      <div class="mobile-nav" aria-label="Mobilnavigation">
+        <label class="visually-hidden" for="mobile-nav-select">Menu</label>
+        <select id="mobile-nav-select" data-nav-select aria-label="Vælg side"></select>
+      </div>
+      <div class="cta-group">
+        <a class="btn btn-outline" data-track="cta_offer" href="#tilbud">Få et tilbud</a>
+        <a class="btn btn-primary" data-track="cta_call_header" href="tel:+4528554219">Ring nu</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section hero" style="background-image: linear-gradient(110deg, rgba(246,241,230,0.95), rgba(252,251,247,0.92)), url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80');">
+      <div class="section-narrow">
+        <div class="hero-copy">
+          <h1>Kontakt Din gulvmand</h1>
+          <p>Fortæl os om dit projekt – så finder vi den løsning, der passer til din bolig eller virksomhed. Du hører fra os inden for én arbejdsdag.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-track="cta_offer_contact" href="#tilbud">Få et tilbud</a>
+            <a class="btn btn-outline" data-track="cta_call_contact" href="tel:+4528554219">Ring nu</a>
+          </div>
+        </div>
+        <aside class="hero-meta">
+          <h2>Kontaktoplysninger</h2>
+          <ul class="usp-list">
+            <li><span class="usp-icon" aria-hidden="true">📞</span> Telefon: <a href="tel:+4528554219">+45 28 55 42 19</a></li>
+            <li><span class="usp-icon" aria-hidden="true">✉️</span> E-mail: <a href="mailto:nikolaj@dgnn.dk">nikolaj@dgnn.dk</a></li>
+            <li><span class="usp-icon" aria-hidden="true">🕘</span> Ring hverdage kl. 8–17</li>
+            <li><span class="usp-icon" aria-hidden="true">🔧</span> CVR: 43904396</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="tilbud" aria-labelledby="section-form">
+      <div class="section-narrow contact-summary">
+        <div>
+          <h2 id="section-form">Send os en besked</h2>
+          <p>Når du udfylder formularen, får du en bekræftelse på mail. Vi følger op med spørgsmål eller tilbud inden for én arbejdsdag.</p>
+          <p>Har du brug for hurtig hjælp, så ring direkte – vi står klar ved telefonen.</p>
+          <div class="contact-box">
+            <p><strong>Direkte kontakt</strong></p>
+            <p><a class="btn btn-primary" data-track="cta_call_contact_box" href="tel:+4528554219">Ring nu</a></p>
+            <p>Tlf. <a href="tel:+4528554219">+45 28 55 42 19</a><br />E-mail: <a href="mailto:nikolaj@dgnn.dk">nikolaj@dgnn.dk</a></p>
+          </div>
+        </div>
+        <form class="form" data-enhanced-form data-success-message="Tak for din henvendelse! Vi sender straks en bekræftelse." aria-labelledby="section-form">
+          <div class="rate-limit-warning" data-rate-warning></div>
+          <label for="form-name">Navn*</label>
+          <input id="form-name" name="navn" type="text" autocomplete="name" required />
+
+          <label for="form-phone">Telefon*</label>
+          <input id="form-phone" name="telefon" type="tel" autocomplete="tel" required />
+
+          <label for="form-email">E-mail</label>
+          <input id="form-email" name="email" type="email" autocomplete="email" />
+
+          <label for="form-zip">Postnr./By</label>
+          <input id="form-zip" name="postnr_by" type="text" autocomplete="postal-code" placeholder="Eks. 4300 Holbæk" />
+
+          <label for="form-message">Besked*</label>
+          <textarea id="form-message" name="besked" required placeholder="Beskriv gulvtypen, antal m² og ønsket tidshorisont."></textarea>
+
+          <div class="checkbox-group">
+            <input id="form-consent" name="samtykke" type="checkbox" required />
+            <label for="form-consent">Jeg accepterer, at mine oplysninger må bruges til at kontakte mig.</label>
+          </div>
+
+          <input class="honeypot" data-honeypot name="company" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <button class="btn btn-primary" data-track="cta_form_submit_contact" type="submit">Send besked</button>
+          <p class="hero-cta-note">Svar inden for 1 arbejdsdag.</p>
+          <div class="form-feedback" data-feedback role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section alt" id="privatliv" aria-labelledby="section-privacy">
+      <div class="section-narrow">
+        <h2 id="section-privacy">Privatliv & cookies</h2>
+        <p>Vi bruger kun dine oplysninger til at kontakte dig vedrørende din forespørgsel. Data deles ikke med tredjeparter og opbevares sikkert. Du kan til enhver tid bede os slette dine oplysninger ved at skrive til <a href="mailto:nikolaj@dgnn.dk">nikolaj@dgnn.dk</a>.</p>
+        <p>Vores hjemmeside anvender kun nødvendige cookies til funktioner som formularer og statistik. Ingen markedsføringscookies anvendes.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <h3>Din gulvmand V/Nikolaj Nyhuus</h3>
+        <p>Lokalt gulvfirma med fokus på kvalitet, ordentlig kommunikation og ryddelige arbejdspladser.</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul class="footer-list">
+          <li><a href="tel:+4528554219">Tlf. +45 28 55 42 19</a></li>
+          <li><a href="mailto:nikolaj@dgnn.dk">nikolaj@dgnn.dk</a></li>
+          <li>CVR: 43904396</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hurtiglinks</h4>
+        <ul class="footer-list">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="om-os.html">Om os</a></li>
+          <li><a href="ydelser.html">Ydelser</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Følg med</h4>
+        <ul class="footer-list">
+          <li><a href="https://www.facebook.com/profile.php?id=100091579455471" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Din gulvmand. Alle rettigheder forbeholdes.</span>
+      <span><a href="#privatliv">Privatliv & cookies</a></span>
+    </div>
+  </footer>
+
+  <a class="mobile-call-button" data-mobile-call href="tel:+4528554219" aria-label="Ring nu til Din gulvmand" data-track="cta_call_mobile">📞 Ring nu</a>
+
+  <script src="assets/js/data.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
